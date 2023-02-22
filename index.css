@@ -1,0 +1,16 @@
+body{
+    background-color: darkcyan;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin: 100px auto;
+    animation: rotate infinite 2s alternate-reverse;
+}
+
+@keyframes rotate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(1080deg);}
+}
